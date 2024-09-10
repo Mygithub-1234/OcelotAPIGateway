@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34728.123
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OcelotAPIGateway", "OcelotAPIGateway.csproj", "{D932C3F5-20FA-4D24-9997-6D87B86F6172}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ServiceA", "..\ServiceA\ServiceA.csproj", "{60170C9E-2DAA-4DD2-9344-7763DF28F858}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ServiceB", "..\ServiceB\ServiceB.csproj", "{2A165B6C-E16D-45AF-ACC6-7408E9E1E8D4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D932C3F5-20FA-4D24-9997-6D87B86F6172}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D932C3F5-20FA-4D24-9997-6D87B86F6172}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D932C3F5-20FA-4D24-9997-6D87B86F6172}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D932C3F5-20FA-4D24-9997-6D87B86F6172}.Release|Any CPU.Build.0 = Release|Any CPU
+		{60170C9E-2DAA-4DD2-9344-7763DF28F858}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{60170C9E-2DAA-4DD2-9344-7763DF28F858}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{60170C9E-2DAA-4DD2-9344-7763DF28F858}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{60170C9E-2DAA-4DD2-9344-7763DF28F858}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2A165B6C-E16D-45AF-ACC6-7408E9E1E8D4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2A165B6C-E16D-45AF-ACC6-7408E9E1E8D4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2A165B6C-E16D-45AF-ACC6-7408E9E1E8D4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2A165B6C-E16D-45AF-ACC6-7408E9E1E8D4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D0D5058D-72F3-4127-AE67-99CDDEB54A3F}
+	EndGlobalSection
+EndGlobal
